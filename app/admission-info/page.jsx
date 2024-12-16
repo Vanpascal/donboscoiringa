@@ -1,6 +1,6 @@
-import AdmissionInfo from "@/components/AdmissionInfo";
-import Footer from "@/components/Footer";
-import Header from "@/components/Header";
+import AdmissionInfo from "@/app/components/AdmissionInfo";
+import Footer from "@/app/components/Footer";
+import Header from "@/app/components/Header";
 import React from "react";
 
 const page = () => {

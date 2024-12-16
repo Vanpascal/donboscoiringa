@@ -1,10 +1,10 @@
 "use client";
 
-import Footer from "@/components/Footer";
-import Header from "@/components/Header";
-import Map from "@/components/Map";
-import PhotoGallery from "@/components/PhotoGallery";
-import Testimonials from "@/components/Testimonials";
+import Footer from "@/app/components/Footer";
+import Header from "@/app/components/Header";
+import Map from "@/app/components/Map";
+import PhotoGallery from "@/app/components/PhotoGallery";
+import Testimonials from "@/app/components/Testimonials";
 import React from "react";
 
 function AboutUs() {
@@ -36,10 +36,10 @@ function AboutUs() {
           <div className="flex flex-col md:flex-row gap-10">
             {/* Left Column - About Don Bosco Iringa */}
             <div className="flex-1 space-y-5">
-              <h2 className="text-3xl font-semibold text-purple-900">
+              <h2 className="text-2xl font-semibold text-purple-900">
                 About Don Bosco Iringa
               </h2>
-              <p className="text-lg text-gray-700">
+              <p className="text-gray-700 text-justify">
                 Don Bosco Youth Training Center, Iringa Community, runs the
                 Technical College and daily Youth Center. VTC Iringa is located
                 in the city’s deprived suburbs. The center, which opened in
@@ -62,10 +62,10 @@ function AboutUs() {
 
             {/* Right Column - Vision and Mission */}
             <div className="flex-1 space-y-5">
-              <h2 className="text-3xl font-semibold text-purple-900">
+              <h2 className="text-2xl font-semibold text-purple-900">
                 Our Vision
               </h2>
-              <p className="text-lg text-gray-700">
+              <p className="text-gray-700 text-justify">
                 We at Don Bosco Youth Training Centre believe that we are called
                 to share our lives to empower young people through offering a
                 family atmosphere which fosters mutual understanding and growth
@@ -74,10 +74,10 @@ function AboutUs() {
                 skills thus enriching their lives and the lives of others.
               </p>
 
-              <h2 className="text-3xl font-semibold text-purple-900">
+              <h2 className="text-2xl font-semibold text-purple-900">
                 Our Mission
               </h2>
-              <p className="text-lg text-gray-700">
+              <p className="text-gray-700 text-justify">
                 To equip the poor and marginalized boys and girls with
                 marketable skills and empower them with habits, values, and
                 character which will make them successful men and women of the
@@ -99,11 +99,11 @@ function AboutUs() {
 
             {/* Right Column - Support Our Vision */}
             <div className="flex flex-col space-y-10 bg-white p-8 shadow-lg rounded-lg">
-              <h2 className="text-4xl font-bold text-purple-900 text-center">
+              <h2 className="text-3xl font-bold text-purple-900 text-center">
                 Support Our Vision
               </h2>
 
-              <p className="text-lg mt-6 text-center text-gray-700">
+              <p className="mt-6 text-center text-gray-700 ">
                 Your support will help us extend our reach and offer more
                 opportunities to marginalized youth, giving them a brighter
                 future through education and training.

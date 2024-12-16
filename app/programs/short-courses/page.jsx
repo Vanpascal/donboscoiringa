@@ -1,6 +1,6 @@
-import Footer from "@/components/Footer";
-import Header from "@/components/Header";
-import ShortCourses from "@/components/ShortCourses";
+import Footer from "@/app/components/Footer";
+import Header from "@/app/components/Header";
+import ShortCourses from "@/app/components/ShortCourses";
 import React from "react";
 
 const ShortCourse = () => {

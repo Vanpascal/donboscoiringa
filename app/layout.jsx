@@ -1,9 +1,22 @@
-import { Poppins } from "next/font/google";
+import { Inter, Open_Sans, Poppins } from "next/font/google";
+
+const inter = Inter({
+  subsets: ["latin"],
+  display: "swap",
+  weight: ["400", "500", "700"],
+  style: ["normal", "italic"],
+  variable: "--inter-font-family",
+});
 import "./globals.css";
 
 const poppins = Poppins({
-  weight: ["400", "500", "700"], // Include additional weights if needed
-  style: ["normal", "italic"], // Add styles if required
+  weight: ["400", "500", "700"],
+  style: ["normal", "italic"],
+  subsets: ["latin"],
+});
+const openSans = Open_Sans({
+  weight: ["400", "500", "700"],
+  style: ["normal", "italic"],
   subsets: ["latin"],
 });
 
@@ -15,7 +28,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={poppins.className}>{children}</body>
+      <body className={openSans.className}>{children}</body>
     </html>
   );
 }

@@ -1,6 +1,6 @@
-import Footer from "@/components/Footer";
-import Header from "@/components/Header";
-import ManagementAndStaff from "@/components/ManagementAndStaff";
+import Footer from "@/app/components/Footer";
+import Header from "@/app/components/Header";
+import ManagementAndStaff from "@/app/components/ManagementAndStaff";
 import React from "react";
 
 const Management = () => {
