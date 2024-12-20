@@ -50,7 +50,7 @@ export default function LandingPage() {
             Welcome to Don Bosco Youth <br />
             <span>Training Center Iringa</span>
           </h1>
-          <p className="mt-4 text-justify sm:text-lg md:text-xl max-w-3xl mx-auto md:mx-0">
+          <p className="mt-4 text-justify md:text-xl max-w-3xl mx-auto md:mx-0">
             Don Bosco Youth Training Center, Iringa, is a vibrant community
             offering a Technical College and daily youth activities. Established
             in 1981, the center provides professional courses in Printing,

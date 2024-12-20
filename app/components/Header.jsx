@@ -108,7 +108,7 @@ function Header() {
       items: [
         { href: "/oas", label: "Online Application System (OAS)" },
         { href: "/sims", label: "Student Information System (SIMS)" },
-        { href: "/contents", label: "Contents Management" },
+        { href: "/admin", label: "Contents Management" },
       ],
     },
   ];
@@ -147,7 +147,7 @@ function Header() {
           <li>
             <Link
               href="/donate"
-              className="px-6 py-2 bg-yellow-400 text-purple-900 font-semibold rounded-lg shadow-md hover:bg-yellow-500 transition"
+              className="px-6 py-2 bg-amber-500 text-purple-900 font-semibold rounded-lg shadow-md hover:bg-yellow-500 transition"
             >
               Donate
             </Link>

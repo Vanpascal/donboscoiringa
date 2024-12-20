@@ -112,8 +112,8 @@ function MessageFromRector() {
           {/* Right Column - Video */}
           <div className="flex-1 flex flex-col items-stretch lg:pt-20 space-y-4">
             {/* Heading */}
-            <h3 className="text-2xl font-semibold text-purple-900 text-end">
-              How DBYTC Looks
+            <h3 className="text-2xl font-semibold text-purple-900 text-center">
+              How DBYTC - Iringa Looks
             </h3>
 
             {/* Video Container */}
